@@ -2,7 +2,7 @@
 
 DnD4AI Player Agent – Slot **alpha**.
 
-Charakter wird über `CHARACTER_NAME` in `.env` gesetzt.
+Charaktername wird automatisch vom Discord Bot-Token abgerufen.
 
 ## Setup
 
@@ -12,5 +12,5 @@ cd agent-alpha
 cp .env.example .env
 # .env befüllen
 pip install -r requirements.txt
-python agent/player_agent.py
+python player_agent.py
 ```
